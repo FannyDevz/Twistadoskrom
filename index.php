@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="favicon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twista.krom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+    <h1 id="title">twistadoskrom</h1>
+    <textarea id="inputText" class="custom-textarea" placeholder="twista(.)krom/test/oqwu83hasd"></textarea>
+    <div class="button-container">
+        <button onclick="convertText()">Convert</button>
+        <!-- <button>Go To</button> -->
+    </div>
+    <div id="result" class="result"> </div>
+    <div id="message" class="message"></div>
+    <script src="script.js"></script>
+</body>
+</html>
