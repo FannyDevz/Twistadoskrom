@@ -125,3 +125,16 @@ button:hover {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .custom-textarea {
+        width: 90%; /* Adjust textarea width for smaller screens */
+    }
+
+    button {
+        width: 150px; /* Adjust button width for smaller screens */
+    }

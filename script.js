@@ -1,9 +1,10 @@
 const container = document.querySelector('.container');
 const title = document.getElementById('title');
+const body = document.getElementById('body');
 const textarea = document.querySelector('.custom-textarea');
 const buttonContainer = document.querySelector('.button-container');
 
-title.addEventListener('click', () => {
+body.addEventListener('click', () => {
     title.style.transform = 'translateY(0)';
     setTimeout(() => {
         textarea.style.display = 'block';
