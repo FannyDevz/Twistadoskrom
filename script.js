@@ -10,7 +10,6 @@ title.addEventListener('click', () => {
         buttonContainer.style.display = 'block';
         textarea.style.animation = 'fade-in 1s forwards';
         buttonContainer.style.animation = 'fade-in 1s forwards';
-        container.classList.add('show-elements');
     }, 500); 
 });
 function convertText() {
